@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Burnsy Test</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/velocity.js"></script>
+    <link rel="stylesheet" href="css/jquery.kenburnsy.css">
+    <script src="js/jquery.kenburnsy.js"></script>
+<!--    <script src="js/app.js"></script>-->
 </head>
+
 <body>
-    
+    <div id="wrapper">
+        <img src="img/atat.jpg">
+        <img src="img/sw.jpg">
+        <img src="img/vadar.jpg">
+    </div>
+    <script>
+        $(function () {
+            $("#wrapper").kenburnsy();
+        });
+    </script>
 </body>
+
 </html>
